@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Web Experience</h1>
+            <p>Combining CSS3 animations with JavaScript functionality</p>
+        </header>
+        
+        <!-- Part 1: CSS3 Animations -->
+        <section id="css-animations">
+            <h2>CSS3 Transitions & Animations</h2>
+            <p>Hover over and click the buttons to see CSS transitions in action. The boxes below demonstrate various CSS animations.</p>
+            
+            <div>
+                <button class="btn">Hover Me</button>
+                <button class="btn">Click Me</button>
+            </div>
+            
+        </section>
+        
+        <!-- Part 2: JavaScript Functions -->
+        <section id="js-functions">
+            <h2>JavaScript Functions</h2>
+            <p>These demos show JavaScript functions with parameters, return values, and scope awareness.</p>
+            
+            <div class="function-demo">
+                <div class="input-group">
+                    <input type="number" id="numInput" placeholder="Enter a number">
+                </div>
+                
+                <div>
+                    <button class="btn" id="calculateBtn">Calculate Square</button>
+                    <button class="btn" id="fibonacciBtn">Fibonacci Sequence</button>
+                    <button class="btn" id="temperatureBtn">Convert Temperature</button>
+                </div>
+                
+                <div class="result" id="functionResult">Results will appear here</div>
+            </div>
+        </section>
+        
+        <!-- Part 3: Combined Animations -->
+        <section id="combined-animations">
+            <h2>Combining CSS Animations with JavaScript</h2>
+            <p>Click the card to flip it, or use the buttons to control animations with JavaScript.</p>
+            
+            <div class="card-container">
+                <div class="card" id="flipCard">
+                    <div class="card-face card-front">Front</div>
+                    <div class="card-face card-back">Back</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" id="flipCardBtn">Flip Card</button>
+                <button class="btn" id="showModalBtn">Show Modal</button>
+                <button class="btn" id="animateBoxesBtn">Animate Boxes</button>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal" id="demoModal">
+                <div class="modal-content">
+                    <h3>Animated Modal</h3>
+                    <p>This modal appears with a smooth fade and scale animation!</p>
+                    <button class="btn" id="closeModalBtn">Close</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="srcipt.js"></script>
+</body>
+</html>
